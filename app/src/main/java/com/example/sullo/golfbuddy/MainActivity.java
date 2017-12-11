@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText email;
     private EditText password;
     private Button login;
+    private Button CreateAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (!task.isSuccessful()){
-                                        Toast.makeText(MainActivity.this, "Failed to sign in", Toast.LENGTH_LONG
+                                        Toast.makeText(MainActivity.this, "Incorrect details!", Toast.LENGTH_LONG
                                         ).show();
                                     }
                                     else {
