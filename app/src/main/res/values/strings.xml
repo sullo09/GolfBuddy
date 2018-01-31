@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">GolfBuddy</string>
-    <string name="email">Email</string>
+    <string name="email">Email address</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="firstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="FirstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="register">Register</string>
 </resources>

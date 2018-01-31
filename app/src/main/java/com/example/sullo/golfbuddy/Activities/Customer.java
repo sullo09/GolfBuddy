@@ -1,4 +1,4 @@
-package com.example.sullo.golfbuddy;
+package com.example.sullo.golfbuddy.Activities;
 
 /**
  * Created by sullo on 22/10/2017.
