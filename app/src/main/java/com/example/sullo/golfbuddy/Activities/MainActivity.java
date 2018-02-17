@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 if(mUser != null){
 //user signed in
                     Toast.makeText(MainActivity.this, "Signedddddd in", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(MainActivity.this, MainMenuScreen.class));
+                    startActivity(new Intent(MainActivity.this, MainScreen.class));
                }
                else{
 //user is signed out
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 //Where Logged in.. passed main activity as we are inside the object
                     Toast.makeText(MainActivity.this, "Signed innnn", Toast.LENGTH_LONG).show();
 //login to main menu page
-                    Intent startMainMenu = new Intent(MainActivity.this, MainMenuScreen.class);
+                    Intent startMainMenu = new Intent(MainActivity.this, MainScreen.class);
                     startActivity(startMainMenu);
                 }
                 else {

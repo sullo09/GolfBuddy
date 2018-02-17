@@ -79,15 +79,12 @@ public class CreateAccount extends AppCompatActivity {
                         mProgressDialog.dismiss();
 
 //login to mainMenu page
-                        Intent startMainMenu = new Intent(CreateAccount.this, MainMenuScreen.class);
+                        Intent startMainMenu = new Intent(CreateAccount.this, MainScreen.class);
                         startMainMenu.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         startActivity(startMainMenu);
-
                     }
                 }
             });
-
-
         }
     }
 }

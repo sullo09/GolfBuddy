@@ -6,21 +6,21 @@ package com.example.sullo.golfbuddy.Model;
 //Model class that Represents one item
 public class ListItems {
 
-    private String image;
+    private String logo;
     private String name;
 
     public ListItems(String image, String name) {
-        this.image = image;
+        this.logo = image;
         this.name = name;
 
     }
 
-    public String getImage() {
-        return image;
+    public String getlogo() {
+        return logo;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setlogo(String image) {
+        this.logo = image;
     }
 
     public String getName() {
